@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: darkred;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.c1 { 
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.c2 { 
+    background-color: blue;
+    color: yellow;
+    border: 2px dashed green;
+    padding: 10px;
+    text-align: center;
+}
+
+.c3 { 
+    background-color: green;
+    color: black;
+    border: 2px dotted red;
+    padding: 10px;
+    text-align: center;
+}
+
+.c4 { 
+    background-color: yellow;
+    color: red;
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+.c5 { 
+    background-color: purple;
+    color: white;
+    border: 2px dashed orange;
+    padding: 10px;
+    text-align: center;
+}
+
+.c6 { 
+    background-color: orange;
+    color: black;
+    border: 2px dotted purple;
+    padding: 10px;
+    text-align: center;
+}
+
+.c7 { 
+    background-color: pink;
+    color: navy;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.c8 { 
+    background-color: gray;
+    color: white;
+    border: 2px dashed pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.c9 {
+    background-color: brown;
+    color: yellow;
+    border: 2px dotted brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.c10 {
+    background-color: teal;
+    color: white;
+    border: 2px solid teal;
+    padding: 10px;
+    text-align: center;
+}
+
+.c11 { 
+    background-color: violet;
+    color: black;
+    border: 2px dashed violet;
+    padding: 10px;
+    text-align: center;
+}
+
+.c12 { 
+    background-color: indigo;
+    color: white;
+    border: 2px dotted indigo;
+    padding: 10px;
+    text-align: center;
+}
+
+.c13 { 
+    background-color: lime;
+    color: black;
+    border: 2px solid lime;
+    padding: 10px;
+    text-align: center;
+}
+
+.c14 { 
+    background-color: cyan;
+     color: black;
+      border: 2px dashed cyan;
+       padding: 10px;
+        text-align: center;
+}
+
+.c15 { 
+    background-color: magenta;
+    color: white;
+    border: 2px dotted magenta;
+    padding: 10px;
+    text-align: center;
+}
+
+.c16 { 
+    background-color: gold;
+    color: black; 
+    border: 2px solid gold; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.p2 {
+    font-size: 18px;
+    color: green;
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px dashed blue;
+}

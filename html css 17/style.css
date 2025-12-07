@@ -1,0 +1,58 @@
+
+
+.box{
+  /* animation: shake 2s; */
+
+  width: 200px;
+  height: 200px;
+ background: #3F5EFB;
+background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+} 
+
+.parent{
+  
+  width: 3px;
+  height: 3px;
+  animation: rotate 2s infinite linear;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+
+@keyframes shake {
+
+   0%{
+     transform: rotate(30deg);
+   }
+   50%{
+       transform: rotate(0deg);
+   }
+   100%{
+    transform: rotate(-30deg);
+   }
+  
+}
+
+
+@keyframes rotate {
+
+
+  0%{
+    transform: rotate(90deg);
+  }
+  25%{
+      transform: rotate(90deg);
+  }
+  50%{
+       transform: rotate(90deg);
+
+  }
+
+  75%{
+     transform: rotate(-90deg);
+  }
+  100%{
+    transform: rotate(-90deg);
+  }
+  
+}

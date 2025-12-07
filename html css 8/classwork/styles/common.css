@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+}
+
+header .left{
+  width: 39%;
+  display: inline-block;
+}
+
+header nav{
+  width: 60%;
+  display: inline-block;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.left h3, .left p{
+  text-align: center;
+}
+
+.myIcon{
+  color: green;
+  font-size: 20px;
+}
+
+.mySvg{
+  width: 20px;
+  fill: red;
+}

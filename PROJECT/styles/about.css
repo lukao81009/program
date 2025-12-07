@@ -1,0 +1,96 @@
+main {
+    width: 100%;
+    background-color: #f4f3e8;
+}
+
+.head {
+    color: #27582a;
+}
+
+.childup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 40%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-areas:
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti erti . .'
+        'erti erti erti erti erti ori ori .'
+        '. . . . ori ori ori .'
+        '. . . . ori ori ori .'
+        '. . . . ori ori ori .';
+    gap: 10px;
+}
+
+.child1 {
+    grid-area: erti;
+    background-image: url(../img/about1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.child2 {
+    grid-area: ori;
+    background-image: url(../img/about2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+
+
+.ldline {
+    width: 100%;
+    height: 1px;
+    background-color: #27582a;
+}
+
+.childdown {
+    display: flex;
+    flex-wrap: wrap;
+    color: #27582a;
+}
+
+.dleft {
+    width: 50%;
+
+}
+
+.dright {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+    .child {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+    .left {
+        height: 400px;
+    }
+}
+

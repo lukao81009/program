@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background-image: url(https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_941,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.child {
+  padding-right: 20px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+}
+
+
+.child h2 {
+  font-size: 40px;
+  font-weight: 900;
+  width: 50%;
+}
+
+
+.btns button {
+  padding: 10px 20px;
+}
+
+.btns button:nth-child(1) {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.btns button:nth-child(2) {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+
+.btns button:nth-child(1):hover {
+  background-color: white;
+  color: black;
+}
+
+.btns button:nth-child(2):hover {
+  background-color: black;
+  color: white;
+}

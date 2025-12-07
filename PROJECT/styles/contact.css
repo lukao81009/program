@@ -1,0 +1,148 @@
+main {
+    width: 100%;
+    background-color: #f4f3e8;
+}
+
+.mhead {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 60px 0 0 20px;
+    font-size: 30px;
+    color: #27582a;
+}
+
+.mchild {
+    width: 100%;
+    display: flex;
+}
+
+.mleft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5px;
+    row-gap: 15px;
+    color: #08610b;
+
+}
+
+.mleft img {
+    height: 420px;
+    padding-bottom: 40px;
+}
+
+.mright {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid #08610b;
+}
+
+.tline {
+    width: 100%;
+    height: 1px;
+    background-color: green;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 25%;
+    
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+
+#fn, #lm, #em, #la {
+    border-bottom: 1px solid green;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.nup {
+    display: flex;
+    gap: 98px;
+}
+
+.ndown {
+    display: flex;
+    gap: 20px;
+}
+
+.emails {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.longText {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: flex;
+    padding-top: 10px;
+}
+
+.btn button {
+    background-color: #08610b;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    border-radius: 47%;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    background-color: lightgray;
+    color: #08610b;
+    border: 1px solid #08610b;
+    
+}
+
+
+
+
+
+.btn button:hover {
+    background-color: lightgray;
+    color: #08610b;
+    border: 1px solid #08610b;
+}
+
+@media (max-width: 768px) {
+    .mchild {
+        flex-direction: column;
+    }
+    .mleft, .mright {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #08610b;
+    }
+    .nup {
+        flex-direction: column;
+        gap: 0;
+    }
+    .ndown {
+        flex-direction: column;
+        gap: 0;
+    }
+    form {
+        padding-left: 0;
+        width: 100%;
+    }
+}

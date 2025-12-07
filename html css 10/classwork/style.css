@@ -1,0 +1,52 @@
+
+
+.template{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.up{
+  width: 100%;
+  height: 70px;
+  background-color: purple;
+}
+.up h1{
+  color: white;
+  text-align: center;
+
+}
+.down{
+  width: 100%;
+  height: 300px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  background-color: aqua;
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+}
+.box3{
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.smallBtns{
+  /* width: 24%; */
+  display: flex;
+  justify-content: space-between;
+}
+.smallBtns button{
+  width: 24%;
+}
+
+.box > button{
+  width: 100%;
+}

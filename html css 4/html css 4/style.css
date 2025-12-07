@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    font-family: 'Playfair Display';
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+    width: 80%;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0066cc;
+    text-align: left;
+    font-style: italic;
+    background-color: #e6f3ff;
+    opacity: 0.9;
+    width: 50vw;
+    height: 2em;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    opacity: 0.95;
+    font-size: 1rem;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: 400;
+    color: #555;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #ff6600;
+    text-align: right;
+    margin-top: 30px;
+    width: 60%;
+    height: 2em;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222;
+    text-align: justify;
+    font-style: normal;
+    background-color: #fff;
+    opacity: 1;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.8;
+    width: 120px;
+    height: 35px;
+}
+
+button:hover {
+    opacity: 1;
+    background-color: #0056b3;
+}
+
+a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: underline;
+    margin-right: 10px;
+    font-style: italic;
+    text-align: left;
+}
+
+span {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: red;
+    background-color: #ffe6e6;
+    padding: 5px;
+    opacity: 1;
+    font-style: normal;
+    width: 150px;
+    height: 1.5em;
+    display: inline-block;
+    text-align: center;
+    text-decoration: bold;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    height: 4vh;
+    background-color: #f0f0f0;
+}

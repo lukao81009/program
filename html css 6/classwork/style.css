@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .text{
+  font-family: cursive;
+}
+.red{
+    color: red;
+}
+.bold{
+    font-weight: 900;
+}
+.green{
+    color: green;
+} */
+
+/* d-r-y  dont repeat yourlef */
+
+/* .text1{
+    font-family: cursive;
+    font-weight: 900;
+    color: red;
+}
+
+.text2{
+    font-family: cursive;
+    font-weight: 900;
+}
+.text3{
+    font-family: cursive;
+    color: green;
+} */
+
+
+/* .mainParent{
+
+}
+.main{
+
+}
+.parent{
+
+}
+.main-Parent{
+
+}
+
+#parent1{
+    background-color: orange ;
+} */
+
+.parent{
+    margin-left: 500px;
+    width: 400px;
+    height: 400px;
+    background-color: red; 
+    padding: 25%;
+    border: 10px solid orange;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+
+
+/* box sizing content box  border box*/
+.mainTExt{
+    /* padding: 20px;
+    padding: 20px 60px;
+      padding: 20px 60px 50px; */
+      padding: 20px 80px 60px 40px;
+    /* padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    padding-left: 10px; */
+  border: 7px solid blue;
+  /* border-width: 6px;
+  border-color: red;
+  border-style: dashed; */
+ /* border-top: 5px solid black ;
+ border-right: 2px dotted red;
+ border-bottom: 2px dashed green; */
+}

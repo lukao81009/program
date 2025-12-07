@@ -1,0 +1,25 @@
+table {
+    border: 4px double black;
+    border-collapse: collapse;
+}
+
+thead {
+    color: rgb(66, 37, 2);
+    font-size: 15px;
+}
+
+tbody {
+    font-size: 25px;
+    color: brown;
+}
+
+tfoot {
+    font-size: 15px;
+    color: darkgreen;
+}
+
+td, th {
+    border: 3px double black;
+    
+}
+

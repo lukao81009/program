@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  resize: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer{
+  width: 100%;
+  background-color: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.left{
+  min-width: 320px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.contact{
+  width: 50%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.last{
+  margin-top: 30px;
+}
+
+.line{
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.right{
+    min-width: 320px;
+  width: 50%;
+  padding: 30px;
+}
+
+
+.right form{
+  min-width: 320px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.names{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+form input, form textarea{
+  width: 100%;
+  height: 30px;
+}
+
+
+form textarea{
+  height: 50px;
+}
+
+form button{
+  align-self: end;
+}
+
+
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header{ 
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.burgerLine{
+  width: 40px;
+  height: 4px;
+  background-color: black;
+  border-radius: 5px;
+}
+.burger{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#chek:checked + label .burger .burgerLine:nth-child(2){
+   display: none;
+}
+#chek:checked + label .burger .burgerLine:nth-child(1){
+   transform: rotate(45deg) translate(4px);
+}
+#chek:checked + label .burger .burgerLine:nth-child(3){
+   transform: rotate(-45deg) translate(4px);
+}
+#chek:checked ~ nav{
+  display: flex;
+}       
+#chek{
+  display: none;
+}
+
+@media screen and (max-width:700px) {
+    nav{
+      display: none;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    footer{
+    background-color: orange;
+  }
+}
+
+
+
+
+@media screen and (max-width:355px) {
+
+  footer{
+    background-color: red;
+  }
+  .right form{
+    min-width: 280px;
+   }
+  
+}
+
+
+
+
+

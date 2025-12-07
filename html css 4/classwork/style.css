@@ -1,0 +1,53 @@
+
+/* px, rem, em, vh, vw, % */
+/* px - პიქსელების რაოდენობა */
+/* rem - არის html თეგის ზომა გამრავლებული რიცხვზე */
+/* em - იღებს ზომას მშობელი ელემენტისგან */
+/* vh - view height */
+/* vw - view width */
+/* % - მშობელი ელემენტისგან იღებს ზომის პროცენტს */
+
+@font-face {
+    font-family: roboto1;
+    src: url(./fonts/Roboto/static/Roboto-ThinItalic.ttf);
+}
+
+/* div{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+span{
+    background-color: green;
+    color: red;
+    font-family: roboto1;
+} */
+
+/* p{
+    font-size: 150%;
+    font-weight: bolder;
+    color: rgb(102, 51, 153);
+    background-color: rgba(165, 42, 42, 0.258);
+    opacity: 1;
+
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline overline line-through 2px solid brown;
+
+    font-family: 'roboto';
+
+}  */
+
+
+h1{
+    background-color: green;
+    width: 300px;
+}
+
+span{
+    background-color: aquamarine;
+    display:inline-block;
+    width: 200px;
+    height: 50px;
+}
+
