@@ -94,13 +94,17 @@ main {
 }
 
 @media screen and (max-width: 800px) {
-   .overlay h1{
-    font-size: 50px;
- }
+  .overlay {
+    top: 30px;
+  }
 
- .child7{
+  .overlay h1{
+    font-size: 50px;
+  }
+
+  .child7{
   display: none;
- }
+  }
 
   main {
     grid-template-areas:
