@@ -12,15 +12,38 @@
   width: 100%;
   height: 100vh;
   top: 200px;
+  gap: 20px;
+}
+
+.overlay button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #27582a;
+  color: #f4f3e8;
+  border: none;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.overlay button:hover {
+  background-color: lightgray;
+  color: #27582a;
+  border: 1px solid #27582a;
+
 }
 
 main {
+  width: 100%;
+  background-color: #f4f3e8;
+  color: #27582a;
+}
+
+.banner {
   position: relative;
 
   padding: 20px;
   width: 100%;
   height: 150vh;
-  background-color: #f4f3e8;
   display: grid;
 
   grid-template-areas:
@@ -93,6 +116,273 @@ main {
   background-position: center;
 }
 
+.ahead {
+  width: 100%;
+  font-size: 25px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  flex-wrap: wrap;
+}
+
+.achild {
+  width: 100%;
+  display: flex;
+}
+
+.aleft {
+  width: 40%;
+  display: grid;
+  grid-template: 3fr 1fr 3fr;
+  grid-row: 2fr 1fr 2fr;
+}
+
+.aright {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ar1 {
+  font-size: 15px;
+}
+
+.ar2 {
+  font-size: 22px;
+}
+
+.ar3 button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #27582a;
+  color: #f4f3e8;
+  border: none;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.ar3 button:hover {
+  background-color: lightgray;
+  color: #27582a;
+  border: 1px solid #27582a;
+
+}
+
+.ar3 {
+  padding-bottom: 70px;
+}
+
+.wcu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.wc1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.wc2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.wc3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+
+.minTexts {
+  width: 100%;
+}
+
+.upTexts {
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+  padding-bottom: 10px 0;
+  flex-wrap: wrap;
+}
+
+.leftUpText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.leftUpLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.LULogo {
+  width: 50px;
+}
+
+.LUHeader {
+  font-size: 25px;
+  
+}
+
+.LUText {
+  font-size: 15px;
+}
+
+.rightUpText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.rightUpLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.RULogo {
+  width: 50px;
+}
+
+.RUHeader {
+  font-size: 25px;
+  
+}
+
+.RUText {
+  font-size: 15px;
+}
+
+
+.BUADTLine {
+  width: 100%;
+  height: 1px;
+  background-color: #27582a;
+}
+
+.lline{
+  width: 1px;
+  height: 600px;
+  background-color: #1a401b;
+  position: absolute;
+  left: 50%;
+
+}
+
+.downTexts {
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.leftDownText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.leftDownLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.LDLogo {
+  width: 50px;
+}
+
+.LDHeader {
+  font-size: 25px;
+}
+
+.LDText {
+  font-size: 15px;
+}
+
+.rightDownText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.rightDownLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.RDLogo {
+  width: 50px;
+}
+
+.RDHeader {
+  font-size: 25px;
+}
+
+.RDText {
+  font-size: 15px;
+}
+
+
+.Testim {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 3% 5%;
+}
+
+.tehead {
+  font-size: 30px;
+}
+
+.tgr1 {
+  font-size: 15px;
+}
+
+.tgr2 {
+  font-size: 20px;
+}
+
+
+
+
+
 @media screen and (max-width: 800px) {
   .overlay {
     top: 30px;
@@ -106,20 +396,68 @@ main {
   display: none;
   }
 
-  main {
+  .banner {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(120px, auto);
     grid-template-areas:
       "erti .  ori    ori"
       ". sami  otxi    otxi"
       "xuti xuti  eqvsi    eqvsi";
   }
+
+  .ahead {
+    padding: 20px 4%;
+    font-size: 20px;
+  }
+
+  .achild {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .aleft, .aright {
+    width: 100%;
+  }
+
+  .aleft {
+    display: block;
+    grid-template: none;
+  }
+
+  .aright {
+    padding: 10px 4%  ;
+    gap: 12px;
+    flex-grow: 1;
+  }
+
+  .lline{
+    display: none;
+  }
+
+  .leftUpText, .rightUpText, .leftDownText, .rightDownText {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .leftUpLogo, .rightUpLogo, .leftDownLogo, .rightDownLogo {
+    padding: 12px 0;
+    gap: 12px;
+  }
+
+  .LULogo, .RULogo, .LDLogo, .RDLogo {
+    width: 40px;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .overlay h1{
     font-size: 50px;
+  }
 
-}
-  main {
+  .banner {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(140px, auto);
     grid-template-areas:
       "erti"
       "ori"
@@ -129,4 +467,37 @@ main {
       "eqvsi"
       "shvidi";
   }
+
+  .child1, .child2, .child3, .child4, .child5, .child6, .child7 {
+    aspect-ratio: 16/10;
+    height: auto;
+  }
+
+  .ahead {
+    padding: 12px 4%;
+    font-size: 18px;
+  }
+
+  .achild {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .aleft, .aright, .leftUpText, .rightUpText, .leftDownText, .rightDownText {
+    width: 100%;
+  }
+
+  .leftUpLogo, .rightUpLogo, .leftDownLogo, .rightDownLogo {
+    padding: 8px 0;
+    gap: 8px;
+  }
+
+  .LULogo, .RULogo, .LDLogo, .RDLogo {
+    width: 36px;
+  }
+
+  .ar2 { font-size: 18px; }
+  .wc1 { font-size: 22px; }
+  .wc2 { font-size: 16px; }
+
 }
