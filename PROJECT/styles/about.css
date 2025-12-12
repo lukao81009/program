@@ -31,10 +31,10 @@ main {
         'erti erti erti erti erti erti .  .'
         'erti erti erti erti erti erti .  .'
         'erti erti erti erti erti erti .  .'
-        'erti erti erti erti erti ori ori .'
-        ' .    .    .    .   ori  ori ori .'
-        ' .    .    .    .   ori  ori ori .'
-        ' .    .    .    .   ori  ori ori .';
+        '.    .    .    .    ori ori  ori ori'
+        ' .    .    .    .   ori  ori ori ori'
+        ' .    .    .    .   ori  ori ori ori'
+        ' .    .    .    .   ori  ori ori ori';
     gap: 10px;
     min-height: 420px;
 }
@@ -47,6 +47,8 @@ main {
 }
 
 .child2 {
+    margin-top: -100px;
+    margin-left: 10px;
     grid-area: ori;
     background-image: url(../img/about2.png);
     background-size: cover;
@@ -109,6 +111,41 @@ main {
 }
 
 @media (max-width: 768px) {
+
+    .dleft {
+        display: none;
+
+    }
+
+    .dright {
+        flex-grow: 1;
+        padding: 0 2%;
+    }
+
+    .head {
+        font-size: 19px;
+    }
+
+    .r1 {
+        font-size: 12px;
+    }
+    .r2 {
+        font-size: 14px;
+    }
+
+    .dr1 {
+        padding: 20px 0;
+        font-size: 12px;
+    }
+
+    .dr2 {
+        font-size: 14px;
+    }
+
+    .loc{
+        font-size: 20px;
+    }
+
     .childup {
         flex-direction: column;
     }
@@ -130,5 +167,8 @@ main {
     .child2 {
         height: 220px;
     }
+    .child2 {
+        margin-top: 0px;
+    margin-left: 0;}
 }
 

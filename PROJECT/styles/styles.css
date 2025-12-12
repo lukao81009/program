@@ -134,8 +134,8 @@ main {
 .aleft {
   width: 40%;
   display: grid;
-  grid-template: 3fr 1fr 3fr;
-  grid-row: 2fr 1fr 2fr;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 2fr 1fr 2fr;
 }
 
 .aright {
@@ -182,6 +182,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .wc1 {
@@ -410,6 +411,10 @@ main {
     font-size: 20px;
   }
 
+  .tehead {
+    font-size: 20px;
+  }
+
   .achild {
     flex-direction: column;
     gap: 18px;
@@ -448,6 +453,12 @@ main {
   .LULogo, .RULogo, .LDLogo, .RDLogo {
     width: 40px;
   }
+
+  .wcu {
+    padding: 10px 3%;
+    flex-grow: 1;
+  }
+
 }
 
 @media screen and (max-width: 450px) {

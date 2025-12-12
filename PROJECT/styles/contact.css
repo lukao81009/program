@@ -35,7 +35,7 @@ main {
 }
 
 .mright {
-    width: 50%;
+    width: 43%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@ form {
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    padding: 25%;
+    padding: 25% 30px !important;
     
 }
 
@@ -72,9 +72,14 @@ form {
 
 .nup {
     display: flex;
-    gap: 98px;
+    gap: 8px;
 }
-
+.fname{
+    width: 49%;
+}
+.lname{
+    width: 49%;
+}
 .ndown {
     display: flex;
     gap: 20px;
@@ -115,8 +120,13 @@ form {
 }
 
 
+#la{
+    height: 70px;
+}
 
-
+form input{
+    height: 30px;
+}
 
 .btn button:hover {
     background-color: lightgray;
