@@ -21,7 +21,7 @@
   background-color: #27582a;
   color: #f4f3e8;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: 1s;
 }
 
@@ -160,7 +160,7 @@ main {
   background-color: #27582a;
   color: #f4f3e8;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: 1s;
 }
 
@@ -459,11 +459,28 @@ main {
     flex-grow: 1;
   }
 
+  .leftUpText, .rightUpText, .leftDownText, .rightDownText {
+    border-top: 1px solid #1a401b;
+    border-bottom: 1px solid #1a401b;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
   .overlay h1{
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  .overlay p{
+    font-size: 15px;
+  }
+
+  .overlay button{
+    font-size: 16px;
+  }
+
+  .ar3 button {
+    font-size: 14px; 
   }
 
   .banner {
@@ -507,8 +524,15 @@ main {
     width: 36px;
   }
 
-  .ar2 { font-size: 18px; }
-  .wc1 { font-size: 22px; }
-  .wc2 { font-size: 16px; }
+  .ar2 {
+    font-size: 18px; 
+    }
 
+  .wc1 {
+    font-size: 22px; 
+    }
+
+  .wc2 {
+    font-size: 16px; 
+    }
 }

@@ -108,7 +108,7 @@ form {
     width: 100px;
     height: 35px;
     border: 0px;
-    border-radius: 47%;
+    border-radius: 30px;
     transition: 0.5s;
 }
 
@@ -134,7 +134,7 @@ form input{
     border: 1px solid #08610b;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 625px) {
     .mchild {
         flex-direction: column;
     }
