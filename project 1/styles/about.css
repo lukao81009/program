@@ -173,10 +173,10 @@ main {
     }
     .child2 {
         height: 220px;
-    }
-    .child2 {
         margin-top: 0px;
-    margin-left: 0;}
+        margin-left: 0;
+    }
+
 }
 
 

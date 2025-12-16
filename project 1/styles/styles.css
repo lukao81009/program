@@ -132,11 +132,43 @@ main {
 }
 
 .aleft {
-  width: 40%;
-  display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
-  grid-template-rows: 2fr 1fr 2fr;
+    background-color: #f4f3e8;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-areas:
+        'ert ert ert ert ert ert  .  .'
+        'ert ert ert ert ert ert  .  .'
+        'ert ert ert ert ert ert  .  .'
+        'ert ert ert ert ert ert  .  .'
+        'ert ert ert ert ert ert  .  .'
+        'ert ert ert ert ert ert  .  .'
+        'ert ert ert ert ert ert  .  .'
+        ' .   .   .   .   or  or or or'
+        ' .   .   .   .   or  or or or'
+        ' .   .   .   .   or  or or or';
+    gap: 10px;
+    min-height: 420px;
+    padding: 0 10px;
 }
+
+.achild1 {
+    grid-area: ert;
+    background-image: url(../img/aphoto1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.achild2 {
+    margin-top: -100px;
+    margin-left: 10px;
+    grid-area: or;
+    background-image: url(../img/aphoto2.png);
+    background-size: cover;
+    background-position: center;
+}
+
 
 .aright {
   width: 60%;
@@ -186,6 +218,7 @@ main {
 }
 
 .wc1 {
+  padding-top: 10px;
   font-size: 30px;
   text-align: center;
 }
@@ -422,11 +455,6 @@ main {
 
   .aleft, .aright {
     width: 100%;
-  }
-
-  .aleft {
-    display: block;
-    grid-template: none;
   }
 
   .aright {
